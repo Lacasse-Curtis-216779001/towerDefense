@@ -1,9 +1,12 @@
 package towerDefense;
 
 import javax.swing.*;
-public class tdMain {
+class tdMain {
 
-	
+	private static void initWindow() {
+		JFrame window = new JFrame("Towel Towers");
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
 	
 }
 
